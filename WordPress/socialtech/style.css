@@ -52,6 +52,12 @@ header {
   color: #0d0d0d;
 }
 
+/* スマホ用ナビを非表示 */
+#nav-sp,
+#menu-sp {
+  display: none;
+}
+
 /* メインビジュアル*/
 #main-visual {
   position: relative;
@@ -564,5 +570,166 @@ body {
 }
 #sns > a {
   margin-right: 30px;
+}
+
+ /* メインビジュアル */
+ #main-visual {
+  position: relative;
+  height: 470px;
+  width: 100%;
+  overflow: hidden;
+}
+#main-visual > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #2710d5;
+  color: white;
+  border-radius: 0 0 476px 0;
+  text-align: center;
+  height: 280px;
+  width: 100%;
+  z-index: 11;
+}
+#main-visual > div > h1 {
+  font-size: 28px;
+  margin: 90px 0 0 0;
+}
+
+#main-visual > div > p {
+  margin: 0;
+}
+
+#main-visual > img {
+  width: 100%;
+  border-radius: 476px 0 0 0;
+  z-index: 10;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* 見出し */
+h2::after {
+  content: url("images/line.png");
+  margin-left: 10px;
+}
+
+h3 {
+  font-size: 24px;
+  margin: 10px 0 0 0;
+}
+
+/* ミッション */
+#mission {
+  margin: 20px;
+}
+
+#mission-photo {
+  width: 100%;
+}
+
+#s2dgs {
+  width: 100%;
+}
+
+/* プロダクト */
+#product {
+  background-color: #fafafa;
+  padding-top: 10px;
+}
+
+#product h2 {
+  margin-left: 20px;
+}
+
+/* 外枠 */
+/* 左右のカラム　スマホでは縦並び */
+#product-left,
+#product-right {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+/* 画像＋説明の枠 */
+#product-left > div,
+#product-right > div {
+  position: relative;
+  height: 540px;
+}
+
+/* 説明文の枠 */
+.product-explain {
+  background-color: #ffffff;
+  position: absolute;
+  left: 0;
+  bottom: 50px;
+  padding: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05);
+}
+
+.product-explain > span {
+  color: #2710d5;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0px;
+}
+
+.product-explain > h3 {
+  margin: 10px 0 10px 0;
+}
+
+/* 画像 */
+.product-photo {
+  width: 100%;
+}
+
+#product-more > img {
+  margin: 0 0 -42px 20px;
+}
+
+ /* ABOUT US */
+ #aboutus {
+  margin: 80px 20px 80px 20px;
+}
+
+#aboutus > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.culture-table {
+  width: 100%;
+  padding-right: 20px;
+  order: 2;
+}
+
+.culture-img {
+  width: 100%;
+  order: 1;
+}
+
+.culture-img2 {
+  width: 100%;
+}
+
+.culture-num {
+  font-size: 80px;
+  color: #2710d5;
+}
+
+.culture-en {
+  color: #2710d5;
+  font-weight: bold;
+  font-size: 24px;
+  display: block;
+}
+
+.culture-jp {
+  display: block;
+}
+
+.culture-description {
+  margin: 0;
 }
 }
