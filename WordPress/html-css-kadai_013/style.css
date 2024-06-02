@@ -90,18 +90,18 @@ PC用のスタイル
   #nav-sp {
     background-color: #ce933e;
     position: absolute;
-      left: 0;
-      right: 0;
-      height: 100%;
-      width: 100%;
-      display: none;
-      z-index: 100;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    display: none;
+    z-index: 100;
   }
 
   #close {
     position: absolute;
-      top: 20px;
-      right: 20px;
+    top: 20px;
+    right: 20px;
   }
 
   #logo-sp {
@@ -131,7 +131,7 @@ PC用のスタイル
   #nav-sp>.menu {
     text-decoration: none;
     display: block;
-    margin: 0 20px;
+    margin: 0 20px 0 20px;
     height: 44px;
     font-size: 16px;
     background-image: url("images/arrow.png");
