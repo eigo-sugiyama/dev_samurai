@@ -1,6 +1,6 @@
 const txtValue = document.getElementById('text');
 
-window.addEventListener('click', () => {
+document.getElementById('btn').addEventListener('click', () => {
 
   txtValue.innerHTML = 'ボタンをクリックしました'
   
