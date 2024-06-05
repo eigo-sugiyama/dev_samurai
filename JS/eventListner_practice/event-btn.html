@@ -1,0 +1,15 @@
+<form name="myform">
+  <input name="myradio" type="radio" value="1">１<br>
+  <input name="myradio" type="radio" value="10">１０<br>
+  <input name="myradio" type="radio" value="100">１００
+</form>
+
+<script>
+  document.myform.addEventListener('change', function() {
+
+  console.log(document.myform.myradio.value);
+  
+})
+
+
+</script>

@@ -1,0 +1,16 @@
+<html>
+  <body>
+ 
+    <p>Please enter something...</p>
+    <input type="text" id = "mytextbox" >
+ 
+    <script>
+       var mybox = document.getElementById("mytextbox");
+       function myfunc() {
+          console.log("Hello world!");
+       }
+       mybox.onchange = myfunc();
+    </script>
+ 
+  </body>
+</html>
